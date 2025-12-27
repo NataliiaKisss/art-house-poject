@@ -619,9 +619,39 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+}
 
+@media (max-width: 690px) {
+  .gallery {
+    padding: 30px 0;
+  }
 
+  .gallery__title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
 
+  .gallery__category {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .gallery__cards {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery__card {
+    max-width: 100%;
+  }
+
+  .gallery__card-link {
+    margin-bottom: 50px;
+  }
+
+  .gallery__category-item {
+    text-align: center;
+  }
 }
 
 @media (max-width: 540px) {
